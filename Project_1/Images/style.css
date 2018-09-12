@@ -1,0 +1,139 @@
+* {
+    background-color: f8eac7;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 768px;
+    height: 1024px;
+    font-family: "rosewood-std-fill",serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+.letter-container {
+    width: 300px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: bf3833;
+    height:400px;
+    padding:0px;
+}
+
+.letter-container h1 {
+    margin: auto;
+    width: 300px;
+    height: 370px;
+    font-size: 550;
+    font-weight:400;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+.button {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    font-size: 44;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: black;
+    color: f8eac7;
+    }
+
+.button:hover {
+    background-color: bf3833;
+    }
+
+.name {
+    width:700px;
+    height: 100px;
+    margin: auto;
+   }
+.name h2{
+    font-size: 142;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    
+}
+
+.fill{
+
+    width: 150px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+   
+}
+
+.fill h3{
+    font-size: 54;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+.alphabet {
+    font-size: 78;
+    color: bf3833;
+    margin-top: 30}
+.info{
+
+    width: 430px;
+    height: 225px;
+    text-align: justify;
+    margin: auto;}
+    
+
+.box1{
+    width: 195px;
+    height: 145px;
+    float: left;
+    margin-right:25px;
+    }
+
+.box2{
+    width: 195px;
+    height: 145px;
+    float: right;
+    margin-left: 0px;
+}
+
+.adobe{
+    width: 430px;
+    height: 10px;
+    margin: auto;
+    font-size: 17;
+}
+
+.bottom{
+    width: 430px;
+    height: 200px;
+    margin: auto;
+}
+
+.photo-title{
+    float: right;
+    font-size:12;
+    text-align: right;
+    line-height: .1px;
+}
+
+.sources{
+    width: 195px;
+    height: 200px;
+    float: left;
+    margin-right: auto;
+    font-size: 9;
+}
+
