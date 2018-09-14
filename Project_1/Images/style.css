@@ -1,5 +1,5 @@
-* {
-    background-color: f8eac7;
+body {
+    background-color:#f8eac7;
 
 }
 .container {
@@ -19,9 +19,17 @@
     height: 370px;
     margin: auto;
     margin-bottom: 10px;
-    color: bf3833;
+    color:#bf3833;
     height:400px;
     padding:0px;
+    position: relative;
+}
+
+.analysis {
+    position: absolute;
+    z-index:20;
+    top: 26px;
+    left: -28px;
 }
 
 .name {
@@ -52,7 +60,7 @@
     margin: auto;
     position: relative;
     bottom: 75px;
-    background-color:transparent
+    background-color:transparent;
 }
 
 
@@ -112,7 +120,7 @@
     float:right;
     position: relative;
     bottom: -100px;
-    right: -130
+    right: -130;
 }
 
 
@@ -147,7 +155,6 @@
 
 
 .fill{
-
     width: 150px;
     height: 25px;
     margin-left: auto;
@@ -173,14 +180,15 @@
     top: -170px;
     background-color: transparent
 }
-.info{
 
+.info{
     width: 430px;
     height: 225px;
     text-align: justify;
     margin: auto;
     position: relative;
     top: -190px;
+    font-size: 14;
 }
     
 .box1{
@@ -197,22 +205,28 @@
     margin-left: 0px;
 }
 
+.lower-lines{
+    background-color: transparent;
+    
+}
+
 .adobe{
     width: 430px;
     height: 10px;
     margin: auto;
     font-size: 17;
     position: relative;
-    top: -190px
+    top: -250px
     
 }
 
+/*footer*/
 .bottom{
     width: 430px;
     height: 200px;
     margin: auto;
     position: relative;
-    top: -190px;
+    top: -250px;
     background-color: transparent;
 }
 
@@ -222,6 +236,8 @@
     text-align: right;
     line-height: .1px;
     background-color: transparent;
+    position: relative;
+    bottom: -50px;
 }
 
 .sources{
@@ -232,4 +248,6 @@
     font-size: 9;
     background-color: transparent;
 }
+
+
 
