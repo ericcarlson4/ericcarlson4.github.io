@@ -28,8 +28,12 @@ body {
 .analysis {
     position: absolute;
     z-index:20;
-    top: 26px;
-    left: -28px;
+    top: 27px;
+    left: -27px;
+}
+
+.middle {
+    position: relative; 
 }
 
 .name {
@@ -38,7 +42,7 @@ body {
     margin: auto;
     margin-top: 0px;
     position: relative;
-    top: 50px;
+    top: 53px;
     background-color: transparent;
    }
 
@@ -55,7 +59,7 @@ body {
 }
 
 .lines {
-    width: 420px;
+    width: 430px;
     height: 180px;
     margin: auto;
     position: relative;
@@ -65,30 +69,32 @@ body {
 
 
 #line1 {
-    width: 416px;
+    width: 430px;
     height: 8px;
     background-color: black;
 }
 
 #line2 {
-    width: 416px;
+    width: 430px;
     height: 15px;
     background-color: black;
     margin-top: 10px;
 }
 
-.line-bottom{
+.three-four {
     position: relative;
-    bottom: -10px;
+    bottom: -2px;
+    
 }
 
 #line3 {
     width: 130px;
     height: 15px;
     background-color: black;
-    margin-top: 0px;
-    position:relative;
-    bottom: -100px;
+    align-content: bottom;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: -110px;
     float:left;
 }
 
@@ -97,18 +103,24 @@ body {
     height: 8px;
     background-color: black;
     float:left;
+    align-content: bottom;
     position: relative;
+    margin-top: 5px;
     bottom: -130px;
     left: -130px;
 }
 
+.five-six{
+    position: relative;
+    bottom: -7px;
+}
 #line5 {
     width: 130px;
     height: 15px;
     background-color: black;
     margin-top: 20px;
     position: relative;
-    bottom: -80px;
+    bottom: -85px;
     float:right;   
 }
 
@@ -116,10 +128,10 @@ body {
     width: 130px;
     height: 8px;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 15px;
     float:right;
     position: relative;
-    bottom: -100px;
+    bottom: -102px;
     right: -130;
 }
 
@@ -149,8 +161,8 @@ body {
     bottom: -10px;
     }
 
-.button:hover {
-    background-color: bf3833;
+#button:hover {
+    background-color:#bf3833;
     }
 
 
@@ -163,7 +175,7 @@ body {
     margin-top: 40px;
     background-color: transparent;
     position: relative;
-    bottom: 160px;
+    bottom: 164px;
 }
 
 .fill h3{
@@ -206,8 +218,41 @@ body {
 }
 
 .lower-lines{
+    width: 430px;
+    height: 30px;
+    background-color:transparent;
+    margin: auto;
+    position: relative;
+    top: -245px;
+   
+   
+}
+
+#line7{
+    width: 430px;
+    height: 10px;
+    background-color: black;
+    margin-top: 0px;
+    align-content:center;
+}
+   
+#line8{
+     width: 430px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: black;}
+     
+     
+
+
+/*footer*/
+.bottom{
+    width: 430px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: -260px;
     background-color: transparent;
-    
 }
 
 .adobe{
@@ -216,19 +261,9 @@ body {
     margin: auto;
     font-size: 17;
     position: relative;
-    top: -250px
-    
+    top: 0px;   
 }
 
-/*footer*/
-.bottom{
-    width: 430px;
-    height: 200px;
-    margin: auto;
-    position: relative;
-    top: -250px;
-    background-color: transparent;
-}
 
 .photo-title{
     float: right;
