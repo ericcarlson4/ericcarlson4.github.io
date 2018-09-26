@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+}
+
+
+.container {
+    width:768px;
+    height: 1024px;
+    background-color: transparent;
+    margin: auto
+}
+
+
+.menu {
+    width: 768px;
+    height: 72px;
+    background-color: skyblue;
+    margin: auto;
+    margin-bottom: 68px;
+}
+
+.title {
+    width: 768px;
+    height: 111px;
+    background-color: lightcoral;
+    margin: auto;
+    margin-bottom: 54px;
+}
+
+.presidents {
+    width: 768px;
+    height: 380px; 
+    background-color:lightgoldenrodyellow;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.description {
+    width: 364px;
+    height: 254px;
+    margin: auto;
+    background-color: lightgray
+}
+
+
+.georgebox {
+    width: 220px;
+    height: 309px;
+    background-color: gray;
+    position: relative;
+    top: 68px;
+
+    
+}
+
+.abebox {
+     width: 220px;
+    height: 309px;
+    background-color: gray;
+    position: relative;
+    top: -300px;
+    margin: auto;
+   
+    
+}
+
+.teddybox {
+   width: 220px;
+    height: 309px;
+    background-color: gray;
+    float: right;
+    position: relative;
+    top: -550px;
+}
+
+.presbox {
+    width: 189px;
+    height: 241px;
+    background-color: lightgray;
+    margin: auto;
+
+}
+
+.label{
+    width: 144px;
+    height: 25px;
+    background-color:lightcyan;
+    margin: auto;
+}
