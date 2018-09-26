@@ -19,6 +19,36 @@
     margin-bottom: 68px;
 }
 
+.menulink {
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+#homelink {
+    float: left;
+    clear: bottom;
+    overflow: auto;
+}
+
+#georgelink {
+    clear: none;
+    overflow: auto;
+}
+
+#abelink {
+    clear: top;
+    overflow: auto;
+    
+}
+
+#teddylink{
+    clear: none;
+    float: right;
+}
+
 .title {
     width: 768px;
     height: 111px;
@@ -44,34 +74,30 @@
 }
 
 
-.georgebox {
-    width: 220px;
+.bigpresbox {
+    width: 229px;
     height: 309px;
-    background-color: gray;
-    position: relative;
-    top: 68px;
-
-    
+    padding-top: 10px;
 }
 
-.abebox {
-     width: 220px;
-    height: 309px;
+#georgebox {
+    background-color: gray;
+    position: relative;
+    top: 63px;
+}
+
+#abebox {
     background-color: gray;
     position: relative;
     top: -300px;
     margin: auto;
-   
-    
 }
 
-.teddybox {
-   width: 220px;
-    height: 309px;
+#teddybox {
     background-color: gray;
     float: right;
     position: relative;
-    top: -550px;
+    bottom: 577px;
 }
 
 .presbox {
@@ -79,6 +105,7 @@
     height: 241px;
     background-color: lightgray;
     margin: auto;
+    margin-bottom: 10px;
 
 }
 
