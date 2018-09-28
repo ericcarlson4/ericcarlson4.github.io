@@ -5,7 +5,7 @@
 var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge!!",
-        "main":    "<p>Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!</p>",
+        "main":    "<p>How much do you think you know about Teddy Roosevelt? Take this quiz to find out!</p>",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
         "level1":  "Jeopardy Ready",
         "level2":  "Jeopardy Contender",
@@ -26,12 +26,12 @@ var quizJSON = {
             "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+            "q": "Teddy once gave a speech even though...",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "He had a terrible toothache",               "correct": false},
+                {"option": "Someone had shot him right before his speech","correct": true},
+                {"option": "He had overslept and showed up 20 minutes late",               "correct": false},
+                {"option": "No one in the crowd spoke English", "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
