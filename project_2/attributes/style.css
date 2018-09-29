@@ -7,47 +7,11 @@
     width:768px;
     height: 1024px;
     background-color: transparent;
-    margin: auto
-}
-
-
-.menu {
-    width: 768px;
-    height: 72px;
-    background-color: skyblue;
     margin: auto;
-    margin-bottom: 68px;
 }
 
-.menulink {
-    box-sizing: border-box;
-    width: 25%;
-    height: 100%;
-    overflow: auto;
-    
-}
 
-#homelink {
-    float: left;
-    clear: bottom;
-    overflow: auto;
-}
 
-#georgelink {
-    clear: none;
-    overflow: auto;
-}
-
-#abelink {
-    clear: top;
-    overflow: auto;
-    
-}
-
-#teddylink{
-    clear: none;
-    float: right;
-}
 
 .title {
     width: 768px;
