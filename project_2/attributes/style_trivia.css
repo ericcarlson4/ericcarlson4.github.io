@@ -1,5 +1,39 @@
-.body {
-    width: 500px;
-    height: 500px;
-    background-color: aquamarine
+* {
+    margin: 0px;
+}
+
+
+
+.quiz_top {
+    width: 510px;
+    height: 560px;
+    margin: auto;
+    position: relative;
+    
+
+}
+
+.quiz_presname {
+    width: 220px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    justify-content: center;
+}
+
+.quiz_illustration {
+    width: 365px;
+    height: 466px;
+    background-color: lightcoral;
+    margin: auto;
+    justify-content: center;
+   
+    
+}
+
+.learn_more {
+    width: 250px;
+    height: 65px;
+    background-color: lightcoral;
+    margin: auto;
 }
