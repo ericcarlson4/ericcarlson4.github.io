@@ -37,3 +37,51 @@
     background-color: lightcoral;
     margin: auto;
 }
+
+.big_info {
+    width: 518px;
+    height: 869px;
+    background-color: blue;
+    display: flex;
+}
+
+.info_top {
+    height:163px;
+    width: 450px;
+}
+
+.info_title {
+    width: 296px;
+    height: 163px;
+    background-color:aquamarine;
+    float: left;
+}
+
+.info_photo {
+    width: 154px;
+    height: 163px;
+    background-color:red;
+    justify-content: flex-end;
+    float: right;
+}
+
+
+.info_text{
+    width: 468px;
+    height: 545px;
+    background-color:lightgray;
+} 
+
+#back {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+}
+
+.empty_info {
+    width: 518px;
+    height: 869px;
+    background-color: transparent;
+}
+
+
