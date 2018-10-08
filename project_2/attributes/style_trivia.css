@@ -39,15 +39,21 @@
 }
 
 .big_info {
-    width: 518px;
+    width: 760px;
     height: 869px;
-    background-color: blue;
-    display: flex;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 140px;
+    margin: auto;
+    
 }
 
 .info_top {
     height:163px;
     width: 450px;
+    position: relative;
+    left: 35px;
+    top: 20px;
 }
 
 .info_title {
@@ -55,6 +61,7 @@
     height: 163px;
     background-color:aquamarine;
     float: left;
+    
 }
 
 .info_photo {
@@ -69,13 +76,19 @@
 .info_text{
     width: 468px;
     height: 545px;
-    background-color:lightgray;
+    background-color:gray;
+    position: relative;
+    top: 40px;
+    left: 25px;
 } 
 
 #back {
     width: 100px;
-    height: 100px;
-    background-color:green;
+    height: 30px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    background-color:lightcoral;
 }
 
 .empty_info {
@@ -84,4 +97,13 @@
     background-color: transparent;
 }
 
+.none {
+    visibility: hidden;
+    
+
+}
+
+.visible {
+    visibility: visible;
+}
 

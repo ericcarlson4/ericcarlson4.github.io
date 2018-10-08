@@ -3,13 +3,13 @@ $(document).ready(function () {
 
     /* Toggle On */
     $(".learn_more").click(function () {
-        $(".").toggleClass("empty_info");
-        $(".").toggleClass("big_info");
+        $(".empty_info").toggleClass("none");
+        $(".big_info").toggleClass("visible");
     });
 
     /* Toggle Off */
     $("#back").click(function () {
-        $(".").toggleClass("big_info");
-        $(".").toggleClass("empty_info");
+        $(".big_info").toggleClass("none");
+        $(".empty_info").toggleClass("visible");
     });
 });
