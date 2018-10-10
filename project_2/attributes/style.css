@@ -16,11 +16,13 @@
 h1 {
     font-family: 'Alfa Slab One', cursive;
     color: #c53739;
+    letter-spacing: 1.2px;
 }
 
 
 h2 {
     font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
 }
 
 p {
@@ -30,15 +32,24 @@ p {
 .title {
     width: 768px;
     height: 111px;
-    background-color: lightcoral;
+   
     margin: auto;
     margin-bottom: 54px;
+}
+
+.title img{
+    
+}
+
+#title_image {
+    position: relative;
+    bottom: 100px;
+    
 }
 
 .presidents {
     width: 768px;
     height: 380px; 
-    background-color:lightgoldenrodyellow;
     margin: auto;
     margin-bottom: 10px;
     
@@ -48,7 +59,7 @@ p {
     width: 364px;
     height: 254px;
     margin: auto;
-    background-color: lightgray
+    
 }
 
 
@@ -56,32 +67,35 @@ p {
     width: 229px;
     height: 309px;
     padding-top: 10px;
+    background-color: gray;
+    
 }
 
 #georgebox {
-    background-color: gray;
+   
     position: relative;
     top: 63px;
+    
 }
 
 #abebox {
-    background-color: gray;
+
     position: relative;
     top: -300px;
     margin: auto;
 }
 
 #teddybox {
-    background-color: gray;
+   
     float: right;
     position: relative;
     bottom: 577px;
 }
 
 .presbox {
-    width: 189px;
-    height: 241px;
-    background-color: lightgray;
+    width: 200px;
+    height: 300px;
+    background-color: transparent
     margin: auto;
     margin-bottom: 10px;
 

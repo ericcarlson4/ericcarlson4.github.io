@@ -2,7 +2,7 @@
     display: flex;
     width: 768px;
     height: 72px;
-    background-color: skyblue;
+   
     margin: auto;
     margin-bottom: 68px;
 }
@@ -11,6 +11,10 @@
     box-sizing: border-box;
     width: 25%;
     height: 100%;
-    background-color: aquamarine;
     padding: 20px;
     text-align: center;
+}
+
+.link1 {
+    backround-color: blue;
+}

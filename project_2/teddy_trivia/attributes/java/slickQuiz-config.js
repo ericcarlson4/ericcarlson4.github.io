@@ -6,24 +6,24 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge!!",
         "main":    "<p>How much do you think you know about Teddy Roosevelt? Take this quiz to find out!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "results": "<h5>Learn More</h5><p>How did you do? If you want to learn more about Teddy, just click on the 'Learn More' button!</p>",
+        "level1":  "Teddy Expert",
+        "level2":  "Teddy Fan",
+        "level3":  "Not bad",
+        "level4":  "Getting there",
+        "level5":  "Give it another shot!" // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "What was the nickname of the political party Teddy made?",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Bulldog Party",      "correct": false},
+                {"option": "Cow Horse Party",     "correct": false},
+                {"option": "Bull Moose Party",      "correct": true},
+                {"option": "Moose Bull Party",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct": "<p><span>That's right!</span> His party was called the Bull Moose Party!</p>",
+            "incorrect": "<p><span> Not quite.</span> There's always next time</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "Teddy once gave a speech even though...",
@@ -34,39 +34,41 @@ var quizJSON = {
                 {"option": "No one in the crowd spoke English", "correct": false} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>Nice!</span> He sure was a cool guy, huh?</p>",
+            "incorrect": "<p><span>Hmmm.</span> The real answer is even more surprising!</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+            "q": "Teddy is best known for creating the...",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "Teddy Bear",           "correct": false},
+                {"option": "nickname 'Teddy'",                  "correct": false},
+                {"option": "National Parks System",  "correct": true},
+                {"option": "National Bank",          "correct": false} // no comma here
             ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "correct": "<p><span>Nailed it!</span>Teddy loved the great out doors and wanted to preserve the most beautiful parts of the country. </p>",
+            "incorrect": "<p><span>Not Quite.</span> Next time, I guess.</p>" // no comma here
         },
         { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+            "q": "Teddy was born in this State",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "Montana",    "correct": false},
+                {"option": "Ohio",     "correct": false},
+                {"option": "Virginia",      "correct": false},
+                {"option": "New York",   "correct": true} // no comma here
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p><span>Correct!</span> You sure are smart!</p>",
+            "incorrect": "<p><span>Oops.</span> Wrong State.</p>" // no comma here
         },
         { // Question 5
-            "q": "Is Earth bigger than a basketball?",
+            "q": "What did Teddy do every day as President?",
             "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
+                {"option": "Read an entire book",    "correct": true},
+                {"option": "Go to the Capitol building",     "correct": false},
+                {"option": "Eat dinner with Vice President Taft",      "correct": false},
+                {"option": "Make a new law",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
+            "correct": "<p><span>Good Job!</span> He was a really smart man, and a speed reader.</p>",
+            "incorrect": "<p><span>Whoops!</span> not quite!</p>" // no comma here
         } // no comma here
     ]
 };

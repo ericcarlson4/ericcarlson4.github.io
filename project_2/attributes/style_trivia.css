@@ -107,3 +107,7 @@
     visibility: visible;
 }
 
+.half {
+    opacity: .5;
+}
+

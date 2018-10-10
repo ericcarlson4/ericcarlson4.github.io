@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     /* Toggle Off */
     $("#back").click(function () {
-        $(".big_info").toggleClass("none");
-        $(".empty_info").toggleClass("visible");
+        $(".empty_info").toggleClass("none");
+        $(".big_info").toggleClass("visible");
     });
 });
