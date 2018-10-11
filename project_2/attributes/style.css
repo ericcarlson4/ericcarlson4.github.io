@@ -52,6 +52,8 @@ p {
     height: 380px; 
     margin: auto;
     margin-bottom: 10px;
+    position: relative;
+    top: 50px;
     
 }
 
@@ -67,15 +69,19 @@ p {
     width: 229px;
     height: 309px;
     padding-top: 10px;
-    background-color: gray;
+ background-color: gray;
     
 }
 
 #georgebox {
    
     position: relative;
-    top: 63px;
-    
+    top: 63px; 
+}
+
+#georgebox img{
+    position: absolute;
+    top 20px;
 }
 
 #abebox {
@@ -83,6 +89,13 @@ p {
     position: relative;
     top: -300px;
     margin: auto;
+}
+
+#abebox img {
+    position: relative;
+    bottom: 150px;
+    right: 90px;
+
 }
 
 #teddybox {
