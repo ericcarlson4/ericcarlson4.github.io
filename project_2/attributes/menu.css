@@ -5,6 +5,7 @@
    
     margin: auto;
     margin-bottom: 68px;
+    
 }
 
 .menulink {
@@ -13,8 +14,16 @@
     height: 100%;
     padding: 20px;
     text-align: center;
+  
 }
 
 .link1 {
-    backround-color: blue;
+    background-color: #2e4897;
+    
+
+}
+
+.link2 {
+    background-color: #647ab2;
+
 }

@@ -11,6 +11,10 @@
 }
 
 
+.body {
+    position: relative;
+    bottom: 20px;
+}
 
 
 h1 {
@@ -23,10 +27,16 @@ h1 {
 h2 {
     font-family: 'Patua One', cursive;
     letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+   
+    
 }
 
 p {
     font-family: "roboto",sans-serif;
+    font-size: 20px;
 }
 
 .title {
@@ -61,6 +71,12 @@ p {
     width: 364px;
     height: 254px;
     margin: auto;
+    position: relative;
+    top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    top: 120px;
     
 }
 
@@ -69,7 +85,7 @@ p {
     width: 229px;
     height: 309px;
     padding-top: 10px;
- background-color: gray;
+ background-color: transparent;
     
 }
 
@@ -79,9 +95,9 @@ p {
     top: 63px; 
 }
 
-#georgebox img{
-    position: absolute;
-    top 20px;
+#georgebox img {
+    position: relative;
+    top 50px;
 }
 
 #abebox {
@@ -95,6 +111,17 @@ p {
     position: relative;
     bottom: 150px;
     right: 90px;
+}
+
+#georgebox img {
+    position: relative;
+    right: 110px;
+    bottom: 20px;
+}
+
+#teddybox img {
+    position: relative;
+    right: 110px;
 
 }
 
@@ -117,8 +144,37 @@ p {
 .label{
     width: 144px;
     height: 25px;
-    background-color:lightcyan;
     margin: auto;
+    position: relative;
+    top: 15px;
+
+}
+
+.button1 {
+    width: 170px;  
+    height: 60px;
+    background-color: #c53739;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
 }
 
 
+#desc_frame {
+    width: 420px;
+    height: 253px;
+    background-color: #f6d8c3;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 
+}
+
+.img_back {
+    width:190px;
+    height: 190px;
+    margin: auto;
+    position: absolute;
+    background-color: #647ab2;
+    border-radius: 20px;
+    margin: auto;
+}
