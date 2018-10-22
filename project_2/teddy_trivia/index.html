@@ -2,16 +2,26 @@
 <html>
 <head>
     <title>Teddy Roosevelt</title>
+  
+    <!--Style sheets-->
      <link rel= "stylesheet" type="text/css" href="../attributes/style_trivia.css" />
-    
     <link rel= "stylesheet" type="text/css" href="../attributes/style.css" />
+    <link rel="stylesheet" type="text/css" href="../attributes/menu.css" />
     
-    <link rel="stylesheet" type="text/css" href="../attributes/menu.css">
     
-    
+    <!--slickquiz stylesheets--> 
       <link href="../attributes/reset.css" media="screen" rel="stylesheet" type="text/css">
         <link href="../attributes/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
         <link href="../attributes/master.css" media="screen" rel="stylesheet" type="text/css">
+    
+    <!--slickquiz script-->
+        <script src="attributes/java/jquery.js"></script>
+        <script src="attributes/java/slickQuiz-config.js"></script>
+        <script src="attributes/java/slickQuiz.js"></script>
+        <script src="attributes/java/master.js"></script>
+    
+    <!--button script--> 
+    <script src="../attributes/button.js"></script>
     
       <!--Roboto-->
     <link rel="stylesheet" href="https://use.typekit.net/vsu8csc.css">
@@ -30,20 +40,20 @@
         
          <!--menu-->
         <div class="menu">
-            <div class="menulink" id="homelink">
-                <a href="../index.html">home</a>
+            <div class="menulink link1" id="homelink">
+                <a href="../index.html"><h2>Home</h2></a>
             </div>
             
-            <div class="menulink" id="georgelink">
-             <a href="../george_trivia/index.html">George Washington</a>
+            <div class="menulink link2" id="georgelink">
+             <a href="../george_trivia/index.html"><h2>George</h2></a>
             </div>
             
-            <div class="menulink" id="abelink">
-            <a href="../abe_trivia/index.html">Abraham Lincoln</a>
+            <div class="menulink link1" id="abelink">
+            <a href="../abe_trivia/index.html"><h2>Abe</h2></a>
             </div>
             
-            <div class="menulink" id="teddylink">
-                <a href="index.html">Teddy Roosevelt</a>
+            <div class="menulink link2" id="teddylink">
+                <a href="index.html"><h2>Teddy</h2></a>
 
             </div>
         </div>    
@@ -84,17 +94,27 @@
              </div>
         </div>
 
-        <script src="attributes/java/jquery.js"></script>
-        <script src="attributes/java/slickQuiz-config.js"></script>
-        <script src="attributes/java/slickQuiz.js"></script>
-        <script src="attributes/java/master.js"></script>
+        
     
     
 <!--end quiz-->    
     
     
 <!--under quiz-->
-    <div class="learn_more"> </div>
+        
+        <div class="learn_more">learn more</div>
+     
+    <div class="big_info none">
+        <div class="info_top">
+        <div class="info_title"></div>
+        <div class="info_photo"></div>
+        </div>
+        <div class="info_text"></div>
+        <div id="back"></div>
+    </div>
+    
+    <div class="empty_info visible"></div>
+   
     
 </div>
 

@@ -16,7 +16,7 @@
     bottom: 20px;
 }
 
-
+/*typefaces*/
 h1 {
     font-family: 'Alfa Slab One', cursive;
     color: #c53739;
@@ -39,23 +39,22 @@ p {
     font-size: 20px;
 }
 
+
+/*title*/
 .title {
     width: 768px;
-    height: 111px;
+    height: 233px;
    
     margin: auto;
     margin-bottom: 54px;
 }
 
-.title img{
-    
-}
-
-#title_image {
+.not_title {
     position: relative;
     bottom: 100px;
-    
 }
+
+
 
 .presidents {
     width: 768px;
@@ -64,6 +63,7 @@ p {
     margin-bottom: 10px;
     position: relative;
     top: 50px;
+    left: 20px;
     
 }
 
@@ -71,12 +71,10 @@ p {
     width: 364px;
     height: 254px;
     margin: auto;
-    position: relative;
-    top: 100px;
     margin-left: 20%;
     margin-right: 20%;
     position: relative;
-    top: 120px;
+    top: 30px;
     
 }
 
@@ -86,6 +84,7 @@ p {
     height: 309px;
     padding-top: 10px;
  background-color: transparent;
+    
     
 }
 
@@ -97,7 +96,9 @@ p {
 
 #georgebox img {
     position: relative;
-    top 50px;
+    top: -95px;
+    left: -3px;
+    
 }
 
 #abebox {
@@ -109,8 +110,8 @@ p {
 
 #abebox img {
     position: relative;
-    bottom: 150px;
-    right: 90px;
+    bottom: 98px;
+    right: 3px;
 }
 
 #georgebox img {
@@ -121,7 +122,8 @@ p {
 
 #teddybox img {
     position: relative;
-    right: 110px;
+    right: 3px;
+    bottom: 95px;
 
 }
 
@@ -174,7 +176,25 @@ p {
     height: 190px;
     margin: auto;
     position: absolute;
-    background-color: #647ab2;
+    background-color: transparent;
     border-radius: 20px;
     margin: auto;
+}
+
+#georgebutton {
+    position: relative;
+    bottom: 100px;
+    right: 18px;
+}
+
+#abebutton {
+    position: relative;
+    bottom: 100px;
+    right: 18px;
+}
+
+#teddybutton {
+    position: relative;
+    bottom: 100px;
+    right: 18px;
 }
