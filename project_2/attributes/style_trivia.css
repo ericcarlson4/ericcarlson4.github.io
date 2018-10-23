@@ -9,22 +9,24 @@
     height: 560px;
     margin: auto;
     position: relative;
-    
 
 }
 
 .quiz_presname {
-    width: 220px;
+    width: 650px;
     height: 50px;
     background-color: lightgoldenrodyellow;
     margin: auto;
-    justify-content: center;
+}
+
+.quiz_presname h1{
+    font-size: 30px;
 }
 
 .quiz_illustration {
     width: 365px;
     height: 466px;
-    background-color: lightcoral;
+    background-color: trasparent;
     margin: auto;
     justify-content: center;
    
@@ -36,24 +38,52 @@
     height: 65px;
     background-color: lightcoral;
     margin: auto;
+    position: relative;
+    bottom: 120px
 }
+
+.button2 {
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align:middle;
+    color: white;
+    background-color: #647ab2;
+    padding-top: 1px;
+}
+
+.button2 h2{
+    font-family: "patua one";
+    font-size: 25px;
+}
+
+
 
 .big_info {
     width: 760px;
     height: 869px;
-    background-color: lightskyblue;
+    background-color: #f6d8c3;
+    border-radius: 30px;
     position: absolute;
     top: 140px;
     margin: auto;
     
 }
 
+#abe_button2 {
+    position: relative;
+    bottom: 30px;
+}
+
 .info_top {
     height:163px;
     width: 450px;
     position: relative;
-    left: 35px;
-    top: 20px;
+    left: 20%;
+    right: 20%;
+    top:3%;
+
 }
 
 .info_title {
@@ -78,8 +108,10 @@
     height: 545px;
     background-color:gray;
     position: relative;
-    top: 40px;
-    left: 25px;
+    top: 10%;
+    left: 19%;
+    right: 29%;
+    
 } 
 
 #back {
@@ -110,3 +142,14 @@
 .half {
     opacity: .5;
 }
+
+#gt_trivia_illustration img {
+    position: relative;
+    bottom: 100px;
+}
+
+.gt_quiz {
+    position: relative;
+    bottom: 10px;
+}
+

@@ -29,9 +29,17 @@ h2 {
     letter-spacing: 1.2px;
     font-size: 23px;
     text-align: center;
-    color: white;
-   
-    
+    color: white; 
+}
+
+.menu h2 {
+      font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+    margin: auto;
+
 }
 
 p {
@@ -198,3 +206,8 @@ p {
     bottom: 100px;
     right: 18px;
 }
+
+
+
+
+
