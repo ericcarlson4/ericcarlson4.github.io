@@ -7,11 +7,12 @@ html {
 
 body {
     width: 800px;
+    height: 1000px;
     margin: 0 auto;
-    border: 2px solid #ccc;
+
     border-top: none;
     background: #fff;
-    padding: 20px;
+    padding: 0px;
     font-family: roboto, Arial,Helvetica,sans-serif;
     font-size: 16px;
     color: #353535;
@@ -81,6 +82,8 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     -moz-border-radius: 5px;
     border-radius: 5px;
 	text-decoration: none;
+    position: relative;
+    left: 156px;
 }
 
 .startQuiz {
@@ -94,6 +97,8 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 
 /* clearfix */
 .quizArea, .quizResults {
+    margin: auto;
+    width: 500px;
     zoom: 1;
 }
 .quizArea:before, .quizArea:after, .quizResults:before, .quizResults:after {
