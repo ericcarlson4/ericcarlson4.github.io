@@ -108,6 +108,7 @@ left: 2%;
     position: absolute;
     top: 140px;
     margin: auto;
+    visibility: hidden;
     
 }
 
@@ -177,7 +178,7 @@ left: 2%;
 }
 
 .none {
-    visibility: hidden;
+    visibility: hidden !important;
     
 
 }
@@ -201,4 +202,6 @@ left: 2%;
 }
 
 
-
+#slickQuiz {
+    visibility: visible;
+}
