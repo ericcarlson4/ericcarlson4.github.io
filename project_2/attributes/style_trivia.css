@@ -15,7 +15,7 @@
 .quiz_presname {
     width: 95%;
     height: 80px;
-    background-color: lightgoldenrodyellow;
+   
     margin: auto;
     padding: none;
     
@@ -34,9 +34,44 @@
     background-color: trasparent;
     margin: auto;
     justify-content: center;
+    position: relative;
+    bottom: 40%;
+    
    
     
 }
+
+.back_back {
+width: 300px;
+height: 300px;
+background-color: #d56f70;
+border-radius: 20px;
+margin: auto;
+}
+
+
+.abe_back_together {
+position: relative;
+top:120px;
+}
+
+.back_back_abe{
+width: 300px;
+height: 300px;
+background-color: #d56f70;
+border-radius: 20px;
+margin: auto;
+position: relative;
+top: 15%;
+}
+
+#abe_back_illustration {
+position: relative;
+bottom: 465px;
+left: 2%;
+}
+
+
 
 .learn_more {
     width: 250px;
@@ -164,7 +199,6 @@
     position: relative;
     bottom: 10px;
 }
-
 
 
 

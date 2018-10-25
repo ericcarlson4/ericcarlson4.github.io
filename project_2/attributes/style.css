@@ -60,7 +60,7 @@ p {
 
 .not_title {
     position: relative;
-    bottom: 100px;
+    bottom: 130px;
 }
 
 
@@ -185,9 +185,13 @@ p {
     height: 190px;
     margin: auto;
     position: absolute;
-    background-color: blue;
+    background-color: #d56f70;
     border-radius: 20px;
     margin: auto;
+}
+
+#img_back_abe {
+    background-color: #647ab2;
 }
 
 #georgebutton {
