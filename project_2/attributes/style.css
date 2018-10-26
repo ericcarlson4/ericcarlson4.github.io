@@ -5,15 +5,18 @@
 
 .container {
     width:768px;
-    height: 1024px;
+    height: 1110px; 
     background-color: transparent;
     margin: auto;
+   
 }
 
 
 .body {
+    height: 1024px;
     position: relative;
     bottom: 20px;
+    margin-bottom: 100px; 
 }
 
 /*typefaces*/
@@ -163,22 +166,37 @@ p {
 
 .button1 {
     width: 170px;  
-    height: 60px;
+    height: 48px;
     background-color: #c53739;
     border-radius: 10px;
     margin: auto;
     display: block;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 12px 0px 0px 0px
 }
 
 
 #desc_frame {
-    width: 420px;
-    height: 253px;
+    width: 440px;
+    height: 200px;
     background-color: #f6d8c3;
-    padding: 30px;
+    padding: 30px 10px 30px 10px;
     border-radius: 15px;
-    margin-left: 
+    text-align: center;
 }
+
+#desc_frame h1 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+
+
 
 .img_back {
     width:190px;

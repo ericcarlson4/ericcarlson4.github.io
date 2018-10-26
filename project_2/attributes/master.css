@@ -2,7 +2,7 @@
 /* Styles to prettify the quiz page */
 
 html {
-    background: #eee;
+    background: #fff;
 }
 
 body {
@@ -70,10 +70,10 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 }
 .button {
     float: left;
-    width: 160px;
-    height: 60px;
+    width: 150px;
+    height: 20px;
     text-align: center;
-    padding: 5px 15px;
+    padding: 10px;
     color:#ffffff;
     background-color:
         #c53739;
@@ -84,10 +84,21 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 	text-decoration: none;
     position: relative;
     left: 156px;
+    
 }
 
 .startQuiz {
     margin-top: 40px;
+    width: 130px;  
+    height: 20px;
+    background-color: #c53739;
+    border-radius: 10px;
+    margin: auto;
+    display: inline;
+    padding: 18px 20px 22px 20px; 
+    
+    
+    
 }
 
 .tryAgain {
