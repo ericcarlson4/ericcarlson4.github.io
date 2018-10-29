@@ -15,7 +15,7 @@
 .body {
     height: 1024px;
     position: relative;
-    bottom: 20px;
+    bottom: 80px;
     margin-bottom: 100px; 
 }
 
@@ -108,8 +108,8 @@ p {
 
 #georgebox img {
     position: relative;
-    top: -95px;
-    left: -3px;
+    top: -99px;
+    left: -12px;
     
 }
 
@@ -122,20 +122,16 @@ p {
 
 #abebox img {
     position: relative;
-    bottom: 98px;
-    right: 3px;
+    bottom: 103px;
+    right: 5px;
 }
 
-#georgebox img {
-    position: relative;
-    right: 110px;
-    bottom: 20px;
-}
+
 
 #teddybox img {
     position: relative;
-    right: 3px;
-    bottom: 95px;
+    right: 4px;
+    bottom: 99px;
 
 }
 
@@ -180,6 +176,9 @@ p {
     padding: 12px 0px 0px 0px
 }
 
+.button1:hover {
+    background-color:darkslategray;
+}
 
 #desc_frame {
     width: 440px;
@@ -230,6 +229,9 @@ p {
     right: 18px;
 }
 
+#home_menu {
+    visibility:hidden;
+}
 
 
 

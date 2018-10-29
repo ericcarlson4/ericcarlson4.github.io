@@ -102,6 +102,10 @@ left: 2%;
     font-size: 25px;
 }
 
+.button2:hover {
+    background-color: darkslategray;
+}
+
 
 
 .big_info {
@@ -190,6 +194,12 @@ left: 2%;
     background-color:#c53739;
 }
 
+#back:hover {
+    background-color: darkslategray;
+}
+
+
+
 .back_container {
     width: 170px;  
     height: 48px;
@@ -252,5 +262,10 @@ left: 2%;
 
 .georgeteddy_quiz {
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
+}
+
+.teddy_back img {
+    position: relative;
+    right: 10px;
 }
