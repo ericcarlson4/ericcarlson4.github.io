@@ -106,13 +106,17 @@ left: 2%;
 
 .big_info {
     width: 760px;
-    height: 869px;
+    height: 1000px;
     background-color: #f6d8c3;
     border-radius: 30px;
     position: absolute;
     top: 130px;
     margin: auto;
     visibility: hidden;
+}
+
+#george_big_info {
+    height: 1080px;
 }
 
 #abe_button2 {
@@ -186,6 +190,24 @@ left: 2%;
     background-color:#c53739;
 }
 
+.back_container {
+    width: 170px;  
+    height: 48px;
+    margin: auto;
+    position: relative;
+    top: 110px;
+}
+
+#george_back_container {
+    position: relative;
+    top: 250px;
+}
+
+#abe_back_container {
+    position: relative;
+    top: 180px;
+}
+
 
 .empty_info {
     width: 518px;
@@ -222,4 +244,5 @@ left: 2%;
     visibility: visible;
 }
 
-    
+
+
