@@ -245,4 +245,12 @@ left: 2%;
 }
 
 
+#georgeteddy_learnmore {
+    position: relative;
+    bottom: 30px;
+}
 
+.georgeteddy_quiz {
+    position: relative;
+    bottom: 100px;
+}
