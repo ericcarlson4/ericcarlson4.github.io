@@ -192,6 +192,11 @@ left: 2%;
     position: relative;
     top: 150px;
     background-color:#c53739;
+    background-color: #c53739;
+    border-radius: 10px;
+    display: inline;
+    padding: 14px 20px 47px 20px; 
+    
 }
 
 #back:hover {
