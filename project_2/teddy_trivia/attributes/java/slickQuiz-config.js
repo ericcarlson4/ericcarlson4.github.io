@@ -4,9 +4,9 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Test Your Knowledge!!",
+        "name":    "Test Your Knowledge!",
         "main":    "<p>How much do you think you know about Teddy Roosevelt? Take this quiz to find out!</p>",
-        "results": "<h5>Learn More</h5><p>How did you do? If you want to learn more about Teddy, just click on the 'Learn More' button!</p>",
+        "results": "<p>How did you do? If you want to learn more about Teddy, just click on the 'Learn More' button!</p>",
         "level1":  "Teddy Expert",
         "level2":  "Teddy Fan",
         "level3":  "Not bad",

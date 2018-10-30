@@ -8,12 +8,13 @@
     height: 1110px; 
     background-color: transparent;
     margin: auto;
+    margin-bottom: 50px;
    
 }
 
 
 .body {
-    height: 1024px;
+    height: 1100px;
     position: relative;
     bottom: 80px;
     margin-bottom: 100px; 
