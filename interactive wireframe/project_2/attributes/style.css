@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+}
+
+
+.container {
+    width:768px;
+    height: 1024px;
+    background-color: transparent;
+    margin: auto;
+}
+
+
+
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #c53739;
+}
+
+
+h2 {
+    font-family: 'Patua One', cursive;
+}
+
+p {
+    font-family: "roboto",sans-serif;
+}
+
+.title {
+    width: 768px;
+    height: 111px;
+    background-color: lightcoral;
+    margin: auto;
+    margin-bottom: 54px;
+}
+
+.presidents {
+    width: 768px;
+    height: 380px; 
+    background-color:lightgoldenrodyellow;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.description {
+    width: 364px;
+    height: 254px;
+    margin: auto;
+    background-color: lightgray
+}
+
+
+.bigpresbox {
+    width: 229px;
+    height: 309px;
+    padding-top: 10px;
+}
+
+#georgebox {
+    background-color: gray;
+    position: relative;
+    top: 63px;
+}
+
+#abebox {
+    background-color: gray;
+    position: relative;
+    top: -300px;
+    margin: auto;
+}
+
+#teddybox {
+    background-color: gray;
+    float: right;
+    position: relative;
+    bottom: 577px;
+}
+
+.presbox {
+    width: 189px;
+    height: 241px;
+    background-color: lightgray;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.label{
+    width: 144px;
+    height: 25px;
+    background-color:lightcyan;
+    margin: auto;
+}
+
+

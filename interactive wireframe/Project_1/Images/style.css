@@ -1,0 +1,286 @@
+body {
+    background-color:#f8eac7;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 768px;
+    height: 1024px;
+    font-family: "rosewood-std-fill",serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+.letter-container {
+    width: 300px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 10px;
+    color:#bf3833;
+    height:400px;
+    padding:0px;
+    position: relative;
+}
+
+.analysis {
+    position: absolute;
+    z-index:20;
+    top: 28px;
+    left: -27px;
+}
+
+.middle {
+    position: relative; 
+}
+
+.name {
+    width:700px;
+    height: 100px;
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+    top: 53px;
+    background-color: transparent;
+   }
+
+.name h2{
+    font-size: 142;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -20px;
+    background-color: transparent;
+}
+
+.lines {
+    width: 430px;
+    height: 180px;
+    margin: auto;
+    position: relative;
+    bottom: 75px;
+    background-color:transparent;
+}
+
+
+#line1 {
+    width: 430px;
+    height: 8px;
+    background-color: black;
+}
+
+#line2 {
+    width: 430px;
+    height: 15px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.three-four {
+    position: relative;
+    bottom: -2px;
+    
+}
+
+#line3 {
+    width: 130px;
+    height: 15px;
+    background-color: black;
+    align-content: bottom;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: -110px;
+    float:left;
+}
+
+#line4{
+    width: 130px;
+    height: 8px;
+    background-color: black;
+    float:left;
+    align-content: bottom;
+    position: relative;
+    margin-top: 5px;
+    bottom: -130px;
+    left: -130px;
+}
+
+.five-six{
+    position: relative;
+    bottom: -7px;
+}
+#line5 {
+    width: 130px;
+    height: 15px;
+    background-color: black;
+    margin-top: 20px;
+    position: relative;
+    bottom: -85px;
+    float:right;   
+}
+
+#line6 {
+    width: 130px;
+    height: 8px;
+    background-color: black;
+    margin-top: 15px;
+    float:right;
+    position: relative;
+    bottom: -102px;
+    right: -130;
+}
+
+
+.letter-container h1 {
+    margin: auto;
+    width: 300px;
+    height: 370px;
+    font-size: 550;
+    font-weight:400;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+#button {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    font-size: 44;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: black;
+    color: f8eac7;
+    z-index: 30;
+    position: relative;
+    bottom: -10px;
+    }
+
+#button:hover {
+    background-color:#bf3833;
+    }
+
+
+.fill{
+    width: 150px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    background-color: transparent;
+    position: relative;
+    bottom: 164px;
+}
+
+.fill h3{
+    font-size: 54;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+.alphabet {
+    font-size: 78;
+    color: bf3833;
+    margin-top: 30;
+    position: relative;
+    top: -170px;
+    background-color: transparent
+}
+
+.info{
+    width: 430px;
+    height: 225px;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    top: -190px;
+    font-size: 14;
+}
+    
+.box1{
+    width: 195px;
+    height: 145px;
+    float: left;
+    margin-right:25px;
+    }
+
+.box2{
+    width: 195px;
+    height: 145px;
+    float: right;
+    margin-left: 0px;
+}
+
+.lower-lines{
+    width: 430px;
+    height: 30px;
+    background-color:transparent;
+    margin: auto;
+    position: relative;
+    top: -245px;
+   
+   
+}
+
+#line7{
+    width: 430px;
+    height: 10px;
+    background-color: black;
+    margin-top: 0px;
+    align-content:center;
+}
+   
+#line8{
+     width: 430px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: black;}
+     
+     
+
+
+/*footer*/
+.bottom{
+    width: 430px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: -260px;
+    background-color: transparent;
+}
+
+.adobe{
+    width: 430px;
+    height: 10px;
+    margin: auto;
+    font-size: 17;
+    position: relative;
+    top: 0px;   
+}
+
+
+.photo-title{
+    float: right;
+    font-size:12;
+    text-align: right;
+    line-height: .1px;
+    background-color: transparent;
+    position: relative;
+    bottom: -50px;
+}
+
+.sources{
+    width: 195px;
+    height: 200px;
+    float: left;
+  text-align: left;
+    font-size: 9;
+    background-color: transparent;
+}
+

@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+}
+
+
+
+.quiz_top {
+    width: 510px;
+    height: 560px;
+    margin: auto;
+    position: relative;
+    
+
+}
+
+.quiz_presname {
+    width: 220px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    justify-content: center;
+}
+
+.quiz_illustration {
+    width: 365px;
+    height: 466px;
+    background-color: lightcoral;
+    margin: auto;
+    justify-content: center;
+   
+    
+}
+
+.learn_more {
+    width: 250px;
+    height: 65px;
+    background-color: lightcoral;
+    margin: auto;
+}
+
+.big_info {
+    width: 760px;
+    height: 869px;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 140px;
+    margin: auto;
+    
+}
+
+.info_top {
+    height:163px;
+    width: 450px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+.info_title {
+    width: 296px;
+    height: 163px;
+    background-color:aquamarine;
+    float: left;
+    
+}
+
+.info_photo {
+    width: 154px;
+    height: 163px;
+    background-color:red;
+    justify-content: flex-end;
+    float: right;
+}
+
+
+.info_text{
+    width: 468px;
+    height: 545px;
+    background-color:gray;
+    position: relative;
+    top: 40px;
+    left: 25px;
+} 
+
+#back {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    background-color:lightcoral;
+}
+
+.empty_info {
+    width: 518px;
+    height: 869px;
+    background-color: transparent;
+}
+
+.none {
+    visibility: hidden;
+    
+
+}
+
+.visible {
+    visibility: visible;
+}
+

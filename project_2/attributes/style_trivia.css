@@ -265,7 +265,9 @@ left: 2%;
     bottom: 120px;
 }
 
-.teddy_back img {
+#teddy_back img {
     position: relative;
-    right: 10px;
+    right: 9px;
+    bottom: 107px;
+    
 }
