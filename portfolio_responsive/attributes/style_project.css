@@ -33,7 +33,6 @@ background-color: lightblue;
     height: 6rem;
     background-color: red;
     margin: auto;
-    color: red;
     display: flex;
     margin-bottom: 2rem;
 
@@ -190,7 +189,11 @@ height: 3rem;
 }
 
     .spacing{
-        width: 960px;
+        width: 60rem;
     }
-    
+  
 
+    .description {
+        width: 54rem;
+        }
+}
