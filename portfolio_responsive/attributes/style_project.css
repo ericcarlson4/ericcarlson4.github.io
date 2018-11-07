@@ -20,11 +20,35 @@ background-color: lightblue;
 }
 
 
-.a {
+.page {
+    width: 100%;
+    margin: auto;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
     width: 75%;
     height: 6rem;
     background-color: red;
     margin: auto;
+    color: red;
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.project_container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;   
+}
+
+
+.spacing {
+    width: 80%;
+    margin:auto;
 }
 
 .name {
@@ -33,24 +57,49 @@ background-color: lightblue;
     background-color: blue; 
 }
 
-.page {
+.images_container {
     width: 100%;
-    margin: auto;
-    margin-top: 7rem;
     display: flex;
+    flex-direction: column;
 }
+
 
 .project_image {
     background-color:lightgoldenrodyellow;
     display: flex;
     margin: auto;
-    width: 50%;
-    height: 15rem;
-    margin-bottom: 2rem;
-    
-   
+    margin-bottom: 2rem;   
 }
 
+.image_wrap {
+    width: 100%;
+    display: flex;
+}
+
+.image1 {
+    display: flex;
+    width: 50%;
+    height: 15rem;
+    background-color: lightblue;
+}
+
+.image2 {
+    display: flex;
+    width: 50%;
+    height: 15rem;
+    background-color: lightcoral;
+}
+
+
+
+.more_info{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: red;
+    margin-bottom: 2rem;
+
+}
 
 .bottom {
     width: 100%;
@@ -66,6 +115,7 @@ background-color: lightblue;
 
 
 @media only screen and (max-width:800px) {
+
 
     
 .mobile_menu {
@@ -88,13 +138,32 @@ background-color: lightblue;
     }
     
     
-    .project_image {
-    height: 15rem;
-        
-        
-   
+    
+    .spacing {
+        width: 100%;
     }
-
+    
+    .spacing2 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .image_wrap {
+        flex-direction: column;
+    }
+    
+    .image1 {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    .image2 {
+        width: 100%;
+        height 15rem;
+    }
+    
+    
 }
 
 
@@ -105,7 +174,9 @@ background-color: lightblue;
         display: flex;
         margin-bottom: 3rem;
         margin-top: 2rem;
-    }    
+    }  
+    
+
     
     
     .menu {
@@ -117,4 +188,9 @@ height: 3rem;
     position: relative;
     bottom: 40%;   
 }
+
+    .spacing{
+        width: 960px;
+    }
+    
 
