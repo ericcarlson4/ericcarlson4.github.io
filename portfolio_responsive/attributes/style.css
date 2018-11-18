@@ -1,9 +1,23 @@
 *{
-margin: 0px
+margin: 0px;
+font-family: montserrat;
+    
 }
 
 .menu {
-background-color: lightblue;
+
+}
+
+h1 {
+ font-family: superclarendon, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+h2 {
+    font-family:montserrat;
+    font-weight: 300;
+    
 }
 
 
@@ -22,7 +36,7 @@ background-color: lightblue;
 .name {
     width: 70%;
     height: 40%;
-    background-color: blue; 
+   
 }
 
 .page {
@@ -85,7 +99,9 @@ background-color: lightblue;
     margin-left: 5%;
 }
     
-
+    .menu {
+    visibility: hidden;
+    }
         
 
 
@@ -131,10 +147,29 @@ background-color: lightblue;
     .menu {
 width: 100%;
 height: 3rem; 
+
+}
+
+    
+.menu_button {
+height: 100%;
+width: 5rem;
+background-color: white;
+border-color: none;
+
+
 }
     
 .name {   
     position: relative;
-    bottom: 40%;   
+    bottom: 40%;  
+    padding-left: 10%;
+    font-size: 2rem;
+    width: 100%
 }
 
+    .name h2 {
+    font-size: 1.5rem;
+    }
+    
+    

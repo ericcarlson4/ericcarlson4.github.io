@@ -1,0 +1,143 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~ Styles that include Responsive Top Nav Bar - 2 ~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/**************************/
+/**** Top NavBar Two *****/
+/**** Navigation ********/
+/***********************/
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.topnav a.icon {
+    color: black;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: #e7cc68;
+    color: #0c2340;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+.main-nav {
+    /*    margin-top:3.5rem;*/
+}
+
+.main-nav.responsive {
+    position: relative;
+
+}
+
+.main-nav.responsive a {
+    float: none;
+    display: block;
+}
+
+
+/************************/
+/**** Media Queries *****/
+/************************/
+
+@media only screen and (min-width: 601px) {
+
+    /*8888888888888888888888888*8*/
+    /*88888 Top NavBar Two 88888*/
+    /*888888888888888888888888**/
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav.responsive .icon {
+        display: none;
+    }
+
+    .main-nav a {
+        display: flex;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 960px) {
+    .page {
+        /* 960px */
+        width: 60rem;
+        margin: 0 auto;
+    }
+
+    /*8888888888888888888888888*8*/
+    /*88888 Top NavBar Two 88888*/
+    /*888888888888888888888888**/
+
+    nav {
+        width: 54rem;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        margin-right: 0px;
+    }
+
+    .main-nav a {
+        font-size: .95rem;
+    }
+
+
