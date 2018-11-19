@@ -73,7 +73,6 @@ h2 {
 }
 
 .project_container {
-    background-color: lightblue;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -94,7 +93,6 @@ h2 {
 }
 
 .project_title {
-    background-color: lightcoral;
     margin: auto;
     display: flex;
     align-items: flex-end;
@@ -131,14 +129,14 @@ h2 {
     
     .menu {
     visibility: hidden;
+    
     }
         
 
 
     .name {
         margin: auto;
-        position:relative;
-        bottom: 3rem;
+        font-size: 90%;
     }
     
     .name h2 {
@@ -159,7 +157,7 @@ h2 {
 @media only screen and (min-width:800px) {
 
     .page {
-        width: 85%;
+        width:100%;
         display: flex;
         margin-bottom: 3rem;
         margin-top: 2rem;
@@ -167,7 +165,7 @@ h2 {
     
     .project_container {
         width: 33%;
-        height: 20rem;
+        
         margin: 1rem;
         
     }

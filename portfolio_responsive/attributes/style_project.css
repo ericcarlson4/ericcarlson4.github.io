@@ -1,26 +1,13 @@
-*{
-margin: 0px
-}
-
 .menu {
 background-color: lightblue;
 }
 
-
-.hero_title_container {
+body {
     width: 100%;
-    height: 12.5rem;
-    background-color: rebeccapurple;
-}
-
-.hero {
-    width: 100%;
-    height: 100%;
-    background-color: lightgray;
 }
 
 
-.page {
+.page2 {
     width: 100%;
     margin: auto;
     margin-top: 7rem;
@@ -30,15 +17,13 @@ background-color: lightblue;
 
 .description {
     width: 75%;
-    height: 6rem;
-    background-color: red;
     margin: auto;
     display: flex;
     margin-bottom: 2rem;
 
 }
 
-.project_container {
+.project_container2 {
     width: 100%;
     display: flex;
     margin-bottom: 3rem;   
@@ -50,11 +35,10 @@ background-color: lightblue;
     margin:auto;
 }
 
-.name {
-    width: 70%;
-    height: 40%;
-    background-color: blue; 
-}
+.name2 {
+        margin: auto;
+        font-size: 2rem;  
+    }
 
 .images_container {
     width: 100%;
@@ -63,7 +47,7 @@ background-color: lightblue;
 }
 
 
-.project_image {
+.project_image2 {
     background-color:lightgoldenrodyellow;
     display: flex;
     margin: auto;
@@ -126,15 +110,11 @@ background-color: lightblue;
     margin-left: 5%;
 }
     
-
+    
         
 
 
-    .name {
-        margin: auto;
-        position:relative;
-        bottom: 4rem;
-    }
+
     
     
     
