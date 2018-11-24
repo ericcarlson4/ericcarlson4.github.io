@@ -2,7 +2,9 @@
 <html>
     <head>
         
-    <link rel='stylesheet' href='../attributes/style.css'>    
+    <link rel='stylesheet' href='../attributes/style.css'> 
+    
+ <link rel='stylesheet' href='../attributes/style_project.css'>
         
        <!--menu stuff-->
   <meta charset='UTF-8' />
@@ -16,6 +18,9 @@
     
     <body>
         
+        
+<!---NAV BAR
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888-->
         <div class="nav-bar">
             <nav class="topnav" id="myTopnav">
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -31,25 +36,64 @@
         
         
         
-        <div class='imagebox_big'>
+        
+        
+        
+  <!---CONTENT
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888-->     
+        <div class='page2'>
+        <div class='imagebox_container margin_image' id="about_contents">
             
-            
+        <div class='imagebox_half' id='half1'>
         <div id='aboutme_image'>
         </div>
+        </div>
         
-        
+        <div class='imagebox_half' id="half2">
         <div id='aboutme_words'>
-        <div class='title'><h1>About Me</h1></div>
+        <div class='title' id="aboutme_title"><h1>About Me</h1></div>
         
         <div class='heading'><h2>I am a graphic designer and illustrator from the University of Notre Dame.</h2></div>
         
         <div class='description'>
-        <p>I have worked doing in-house design and will have my first children’s book published this upcoming year for Paraclete Press.  This spring, I will also be finishing my BFA in Visual Communication Design.  Other interests include: playing guitar, learning new skills, and speaking German poorly.</p></div>
+            <p>I have worked doing in-house design and will have <a class='link' href=https://www.amazon.com/Am-Gods-Storyteller-Lisa-Hendey/dp/1640601627> my first children’s book </a> published this upcoming year for Paraclete Press.  This spring, I will also be finishing my BFA in Visual Communication Design.  Other interests include: playing guitar, learning new skills, and speaking German poorly.</p></div>
         <div class='link'>
-        View my portfolio</div>
+        View my resume</div>
+        </div>
         </div>
         
         </div>
+        
+   
+        
+        
+        
+<!---BOTTOM
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888-->
+    <div class='bottom'>
+        
+        <div class='widgets'>
+        </div>
+        
+        <div class='contact'></div>
+        </div>
+            
+        </div>
+   
+
+<!---SCRIPT
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        
+        </script>
     
     
     </body>
