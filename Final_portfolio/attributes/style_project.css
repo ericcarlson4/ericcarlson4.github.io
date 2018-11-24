@@ -1,0 +1,377 @@
+
+/*PAGE SPACING  
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+body {
+    width: 100%;
+}
+
+
+.page2 {
+    width: 100%;
+    margin: auto;
+}
+
+.margin {
+    width: 80%;
+    margin: auto;
+}
+
+.margin_image {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+/*TEXT CONTENT  
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+.title {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PROJECT IMAGES  
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+.imagebox_container {
+    display:flex;
+    height: 30rem;
+    flex-direction: row;
+}
+
+.imagebox_half {
+    display: flex;
+    width: 50%;
+}
+
+#half1 {
+    background-color: aqua;
+}
+
+#half2 {
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+/*QUOTE CSS 
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+.quotebox{
+    background-color:blue;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.quote {
+    color: white;
+}
+
+.cite {
+    color: white;
+    text-align: right;
+    margin-right: 45%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*OLD CONTENT 
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+.project_container2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;   
+}
+
+
+.spacing {
+    width: 80%;
+    margin:auto;
+}
+
+.title {
+        margin: auto;
+        font-size: 2rem;  
+    }
+
+.images_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project_image2 {
+    background-color:lightgoldenrodyellow;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;   
+}
+
+.image_wrap {
+    width: 100%;
+    display: flex;
+}
+
+.image1 {
+    display: flex;
+    width: 50%;
+    height: 15rem;
+    background-color: lightblue;
+}
+
+.image2 {
+    display: flex;
+    width: 50%;
+    height: 15rem;
+    background-color: lightcoral;
+}
+
+
+
+.more_info{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: red;
+    margin-bottom: 2rem;
+
+}
+
+.bottom {
+    width: 100%;
+    height: 10rem;
+    background-color: greenyellow
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY 1
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+@media only screen and (max-width:600px)  {
+    
+    /*SPACING 888888888888888888888888888*/
+    .margin_image {
+    width: 100%;
+    }
+    
+    
+    
+    /*PROJECT IMAGES8888888888888888888888888*/
+    .imagebox_container {
+    flex-direction: column;
+    }    
+    
+    .imagebox_half {
+    width: 100%;
+    height: 30rem;
+   
+    }
+    
+
+
+    
+.mobile_menu {
+    width: 4rem;
+    height: 4rem;
+    background-color: green;
+    position: relative;
+    bottom: 8rem;
+    margin-left: 5%;
+} 
+    .spacing {
+        width: 100%;
+    }
+    
+    .spacing2 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .image_wrap {
+        flex-direction: column;
+    }
+    
+    .image1 {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    .image2 {
+        width: 100%;
+        height 15rem;
+    }   
+}
+
+
+
+
+
+/*MEDIA QUERY 2
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    
+    /*SPACING 888888888888888888888888888*/
+    .margin_image {
+    width: 100%;
+    margin:auto;
+    }
+    
+    #half1 {
+        background-color: red;
+    }
+    
+    
+    /*PROJECT IMAGES8888888888888888888888888*/
+
+    
+    
+    /*OLD CONTENT 8888888888888888888888888*/
+.mobile_menu {
+    width: 4rem;
+    height: 4rem;
+    background-color: green;
+    position: relative;
+    bottom: 8rem;
+    margin-left: 5%;
+} 
+    .spacing {
+        width: 100%;
+    }
+    
+    .spacing2 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .image_wrap {
+        flex-direction: column;
+    }
+    
+    .image1 {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    .image2 {
+        width: 100%;
+        height 15rem;
+    }   
+}
+
+
+
+
+
+
+
+
+/*MEDIA QUERY 3
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+@media only screen and (min-width:1000px) {
+
+    .page {
+        display: flex;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }  
+    
+
+    
+    
+    .menu {
+width: 100%;
+height: 3rem; 
+}
+    
+.name {   
+    position: relative;
+    bottom: 40%;   
+}
+
+    .spacing{
+        width: 60rem;
+    }
+  
+
+    .description
+    .heading {
+        width: 54rem;
+        }
+    
+}
