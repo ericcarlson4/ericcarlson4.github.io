@@ -129,39 +129,6 @@ h2 {
 
 /*OLD PAGE CONTENT
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
-.page {
-    width: 100%;
-    margin: auto; 
-}
-
-
-
-.project_container {
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.project_image {
-    background-color:lightgoldenrodyellow;
-    display: flex;
-    margin: auto;
-    width: 100%;
-   
-}
-
-.project_image img {
-    width: 100%;
-
-}
-
-.project_title {
-    margin: auto;
-    display: flex;
-    align-items: flex-end;
-    width: 80%;    
-}
 
 
 
