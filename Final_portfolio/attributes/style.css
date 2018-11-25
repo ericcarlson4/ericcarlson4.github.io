@@ -5,6 +5,12 @@ font-family: montserrat;
 }
 
 
+.margin {
+    
+    margin: auto;
+}
+
+
 /*TYPEFACES
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 h1 {
@@ -77,17 +83,62 @@ h2 {
 
 
 
-/*PAGE CONTENT
+
+
+/*NEW PAGE CONTENT
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+
+#images_front {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.container {
+    margin: 1rem;
+}
+
+
+
+.container img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*OLD PAGE CONTENT
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 .page {
     width: 100%;
     margin: auto; 
 }
 
+
+
 .project_container {
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: auto;
 }
 
@@ -162,7 +213,28 @@ h2 {
 /*MEDIA QUERY 1
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:500px) {
+ 
+
+.container {
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+.container img{
+    width: 100%;
+}
+ 
+    
+    
+    
+    
+    
+    
+    
+    
 
 .mobile_menu {
     width: 4rem;
