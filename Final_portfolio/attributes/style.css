@@ -268,7 +268,9 @@ h2 {
         width: 100%;
     }
     
-    
+    .margin {
+        width: 90%;
+    }
     
 }
 
@@ -286,6 +288,12 @@ h2 {
         width: 31%;
         margin: .2rem;
     }
+    
+     .margin {
+        width: 90%;
+    }
+    
+    
 }
 
 
