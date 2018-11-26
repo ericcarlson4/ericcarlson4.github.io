@@ -259,6 +259,14 @@ body {
     width: 100%;
 }
 
+.graybox {
+        width: 100%;
+        background-color: lightgray;
+        padding: 2rem;
+
+    }
+
+
 /*TYPE SPEC BOOK SPECIFIC
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
@@ -345,7 +353,8 @@ body {
     width: 100%;
     margin: .1rem;
 }
-
+    
+  
     
      /*CLASSY ANIMALS8888888888888888888888888*/
     .animals_finals img {
