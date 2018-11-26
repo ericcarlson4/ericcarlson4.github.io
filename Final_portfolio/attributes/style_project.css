@@ -85,6 +85,22 @@ body {
     background-color: antiquewhite;
 }
 
+.picduo {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.picduo img{
+    width: 48%;
+    margin: .1rem;
+}
+
+.picsolo img {
+    width: 100%;
+}
+
+
+
 
 
 
@@ -198,9 +214,50 @@ body {
 /*CLASSY ANIMALS SPECIFIC
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
+.animals_finals {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.animals_finals img {
+    width: 23%;
+    margin: .1rem;
+}
 
 
 
+
+.work2 {
+    margin: auto;
+}
+
+#half1_animals {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animals_top {
+    width: 100%;
+}
+
+#animals_top img {
+    width: 48%;
+}
+
+#animals_bottom {
+    width: 100%;
+}
+
+#animals_bottom img {
+    width: 48%;
+}
+
+#half2_animals img{
+    width: 100%;
+}
 
 /*TYPE SPEC BOOK SPECIFIC
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
@@ -282,9 +339,18 @@ body {
     
     .imagebox_half {
     width: 100%;
-   
-   
-    }
+}
+    
+    .picduo img{
+    width: 100%;
+    margin: .1rem;
+}
+
+    
+     /*CLASSY ANIMALS8888888888888888888888888*/
+    .animals_finals img {
+    width: 48%;
+}
     
 
 
