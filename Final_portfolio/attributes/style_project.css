@@ -78,11 +78,11 @@ body {
 
 
 .half1 {
-    background-color: aqua;
+   
 }
 
 .half2 {
-    background-color: antiquewhite;
+    
 }
 
 .picduo {
@@ -96,8 +96,54 @@ body {
 }
 
 .picsolo img {
+    width: 97.2%;
+}
+
+.picstack_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picstack {
+    width: 30%;
+}
+
+.picstack img{
     width: 100%;
 }
+
+
+/*PROJECT IMAGES  
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+.double_images_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.double1 {
+
+    width: 39%;
+}
+
+.double2 {
+    width: 61%;
+}
+
+.double_row {
+    width: 100%;
+}
+
+
+.double_row img{
+    width: 32%;
+}
+
+
+.double2 img {
+    width: 100%;
+}
+
 
 
 
@@ -215,6 +261,86 @@ body {
     width: 100%;
 }
 
+/*************/
+
+#double1_email {
+    width: 50%;
+}
+
+#double1_email img{
+    width: 49%;
+}
+
+#double2_email {
+    width: 50%;
+}
+
+/*************/
+
+.complex_frame {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.complex1 {
+    width: 71.5%;
+}
+
+.complex2 {
+    width: 28.5%;
+}
+
+.complex2 img {
+    width: 100%;
+}
+
+.complex_top{
+    width: 96.4%
+}
+
+.complex_top img{
+    width: 100%
+}
+
+.mid_frame {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mid1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.mid_sub1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mid_sub1 img{
+    width: 48%;
+}
+
+.mid_sub2 {
+    width: 100%;
+}
+
+.mid_sub2 img{
+    width: 98%;
+}
+
+.mid2 {
+    width: 51.4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mid2 img{
+    width: 100%;
+}
+
+
 
 
 
@@ -274,7 +400,10 @@ body {
 .graybox {
         width: 100%;
         background-color: lightgray;
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin:auto;
+    
 
     }
 
@@ -365,8 +494,51 @@ body {
     width: 100%;
     margin: .1rem;
 }
+    .picsolo img {
+    width: 100%;
+}
     
+    .picstack {
+    width: 100%;
+}
+    
+    
+.double1 {
+   
+    width: 100%;
+}
+
+.double2 {
+    width: 100%;
+}
   
+    
+ /*ACE8888888888888888888888888*/  
+   #double1_email {
+    width: 100%;
+}
+
+#double2_email {
+    width: 100%;
+}
+    
+    /**********/
+    .complex1 {
+    width: 100%;
+    }
+    .complex2 {
+    width: 100%;
+    }
+    
+    .mid1 {
+        width: 100%;
+    }
+    
+    .mid2 {
+        width: 100%;
+    }
+ 
+ 
     
      /*CLASSY ANIMALS8888888888888888888888888*/
     .animals_finals img {
@@ -420,7 +592,7 @@ body {
     
     /*SPACING 888888888888888888888888888*/
     .margin_image {
-    width: 100%;
+    width: 90%;
     margin:auto;
     }
     
