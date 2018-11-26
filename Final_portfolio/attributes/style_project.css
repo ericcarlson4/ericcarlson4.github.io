@@ -192,32 +192,32 @@ body {
 /*ABOUT ME SPECIFIC
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
-#about_contents {
+
+
+/*********/
+.about_container {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 4rem;
-    
 }
 
-#aboutme_title h1{
-    text-align:left;
+.about1 {
+    width: 30%;
+     
 }
 
-#aboutme_words {
+.about1 img{
+    width: 100%;
+}
+
+.about2 {
+    width: 60%;
     padding: 1.5rem;
 }
 
-#aboutme_image {
-    display: flex;
-    
+#aboutme_title {
+    text-align: left;
 }
-
-
-
-#aboutme_image img {
-    width: 100%;
-    margin: auto;
-}
-
-
 
 
 
@@ -537,6 +537,20 @@ body {
     .mid2 {
         width: 100%;
     }
+    
+    /*ABOUT888888*/
+    .about_container{
+        margin-top: 0rem;
+        
+    }    
+    
+.about1 {
+    visibility: hidden;
+}
+
+.about2 {
+    width: 100%;
+}
  
  
     
@@ -583,8 +597,6 @@ body {
 
 
 
-
-
 /*MEDIA QUERY 2
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
@@ -600,6 +612,16 @@ body {
         background-color: red;
     }
     
+ 
+       /*ABOUT888888*/
+.about1 {
+    visibility: hidden;
+}
+
+.about2 {
+    width: 100%;
+}
+
     
     /*PROJECT IMAGES8888888888888888888888888*/
 
