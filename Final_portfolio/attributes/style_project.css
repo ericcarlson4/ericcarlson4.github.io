@@ -159,6 +159,18 @@ body {
     padding: 1.5rem;
 }
 
+#aboutme_image {
+    display: flex;
+    
+}
+
+
+
+#aboutme_image img {
+    width: 100%;
+    margin: auto;
+}
+
 
 
 
