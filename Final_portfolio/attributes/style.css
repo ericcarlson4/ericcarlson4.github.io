@@ -32,6 +32,36 @@ h2 {
 
  
 
+/*TAKE 3 888888888888*/
+
+.home_container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.home_container_small {
+    width: 27%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.home_container_small img{
+    width: 100%;
+}
+
+.home_link {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 
 
 /*HERO CONTENT
@@ -232,6 +262,14 @@ h2 {
         margin: 2rem;
         
     }
+    
+    
+    .home_container_small {
+        width: 100%;
+    }
+    
+    
+    
 }
 
 
@@ -305,3 +343,7 @@ border-color: none;
     font-size: 2rem;
     }
    
+    #home_margin {
+        width: 78%;
+        margin: auto;
+    }

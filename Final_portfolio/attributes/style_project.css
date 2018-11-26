@@ -47,7 +47,14 @@ body {
     text-align: left;
 }
 
+.quote {
+    font-family: superclarendon;
+}
 
+.cite {
+    font-family: superclarendon;
+    
+}
 
 
 
@@ -157,7 +164,7 @@ body {
 /*QUOTE CSS 
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 .quotebox{
-    background-color:blue;
+    background-color:#0D2039;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-top: 2rem;
