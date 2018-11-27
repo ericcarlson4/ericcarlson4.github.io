@@ -56,6 +56,8 @@ body {
 
 .cite {
     font-family: superclarendon;
+    font-style: italic;
+    font-weight: 300;
     
 }
 
@@ -170,8 +172,8 @@ body {
     background-color:#0D2039;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .quote {
@@ -227,6 +229,17 @@ body {
 
 #aboutme_title {
     text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#about_heading {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+#about_description {
+    margin-top: 0px;
 }
 
 
