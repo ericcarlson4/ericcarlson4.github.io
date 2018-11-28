@@ -430,9 +430,23 @@ h5 {
     font-style: italic;
 }
 
+#header_resume h2 {
+    font-size: 1.3rem;
+}
 
+#header_resume h1 {
+    font-size: 2.4rem;
+}
 
+#header_resume {
+    visibility: hidden;
+    height: 0px;
+    margin-bottom: 0rem;
+}
 
+#education {
+    padding: .2rem;
+}
 
 
 
