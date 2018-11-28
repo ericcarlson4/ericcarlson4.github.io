@@ -197,7 +197,7 @@ h2 {
 
 
 /*BOTTOM
-8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+8888888888888888888888888888888888888888888F888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
 .bottom {
     width: 100%;
@@ -379,7 +379,7 @@ h2 {
     .low_title {
         text-align: left; 
         font-size: 1.2rem;
-        margin-left:10%;
+        margin-left:12.6%;
     }
     
     .low_title h2 {
@@ -395,6 +395,15 @@ h2 {
     .low_title_container {
         margin-bottom: 2rem;
         margin-top: 1rem;
+    }
+    
+    .home_container_small {
+        margin-left: .2rem;
+        margin-right: .2rem;
+    }
+    
+    .home_container_small p{
+        font-size: .9rem;
     }
     
     
