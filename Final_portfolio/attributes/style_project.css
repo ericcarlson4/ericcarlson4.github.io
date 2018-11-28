@@ -116,10 +116,12 @@ body {
 .picstack_row {
     display: flex;
     flex-wrap: wrap;
+   
 }
 
 .picstack {
     width: 30%;
+     margin-bottom: 2rem;
 }
 
 .picstack img{

@@ -61,6 +61,7 @@ h2 {
 .home_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -161,6 +162,9 @@ h2 {
     width: 100%;
 }
 
+#front_link {
+    text-align: center;
+}
 
 
 
@@ -304,6 +308,25 @@ h2 {
         width: 90%;
     }
     
+    .name {
+        visibility: hidden;
+        height: .1rem;
+    }
+    
+      .low_title h2 {
+        font-size: 1.1rem;
+    }
+    
+    .low_title h1 {
+        font-size: 2rem;
+    }
+    
+    .low_title_container {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    
+    
 
     
 }
@@ -335,6 +358,28 @@ h2 {
         margin-top: 3rem;
     }
     
+    .name {
+        visibility: hidden;
+        height: .1rem;
+    }
+    
+    .low_title {
+        text-align: center; 
+        font-size: 1.2rem;
+    }
+    
+    .low_title h2 {
+        font-size: 1.3rem;
+    }
+    
+    .low_title h1 {
+        font-size: 2.8rem;
+    }
+    
+    .low_title_container {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
     
     
 }
@@ -397,4 +442,9 @@ border-color: none;
     #home_margin {
         width: 78%;
         margin: auto;
+    }
+    
+    .low_title {
+        visibility: hidden;
+        height: .1rem;
     }
