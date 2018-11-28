@@ -218,7 +218,7 @@ body {
 }
 
 .about1 {
-    width: 30%;
+    width: 14rem;
      
 }
 
@@ -227,7 +227,7 @@ body {
 }
 
 .about2 {
-    width: 60%;
+    width: 54.5%;
     padding: 1.5rem;
 }
 
@@ -564,9 +564,7 @@ body {
     width: 100%;
     }
     
-    .title {
-        font-size: 1rem;
-    }
+   
     
     
     /*PROJECT IMAGES8888888888888888888888888*/
