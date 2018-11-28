@@ -31,6 +31,7 @@ body {
 
 
 
+
 /*TEXT CONTENT  
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
 
@@ -52,6 +53,7 @@ body {
 
 .quote {
     font-family: superclarendon;
+    
 }
 
 .cite {
@@ -373,24 +375,49 @@ body {
 .resume_row {
     display: flex;
     flex-direction: row;
+    background-color: #F4F4F4;
+    padding: 1.3rem;
 }
 
 .resume_half1 {
-    width: 65%;
+    width: 80%;
     margin-right: 2rem;
 }
 
 .resume_half2 {
-    width: 30%;
+    width: 15%;
     font-size: .7rem;
-    color: gray;
+
 
 }
 
-.position_dates {
-    visibility: hidden;
-    height: .1rem;
+.resume_section {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
+
+.resume_heading {
+    margin-bottom:50px;
+}
+
+.gray_resume {
+    background-color: lightgray;
+    
+}
+
+.position_dates{
+    
+    font-size: .7rem;
+}
+
+.skills {
+    padding: 1.3rem;
+}
+
+
+
+
+
 
 
 
@@ -416,6 +443,7 @@ body {
 .animals_finals img {
     width: 23%;
     margin: .1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -645,7 +673,29 @@ body {
     .image2 {
         width: 100%;
         height 15rem;
-    }   
+    }  
+    
+    /*Resume*/
+    .resume_half2 {
+        visibility: hidden;
+        width: 0%;
+    }
+    
+    .resume_half1 {
+        width: 100%;
+        margin-right: 0rem;
+    }
+    
+    .position_dates {
+        visibility: visible;
+        
+    }
+    
+    
+    
+    
+    
+    
 }
 
 
@@ -711,7 +761,17 @@ body {
     .image2 {
         width: 100%;
         height 15rem;
-    }   
+    }  
+    
+/*Resume*/    
+  .position_dates {
+    visibility: hidden;
+    height: .1rem;
+}  
+    
+    
+    
+    
 }
 
 
@@ -753,5 +813,12 @@ height: 3rem;
     .heading {
         width: 54rem;
         }
+    
+    
+    /*Resume*/    
+  .position_dates {
+    visibility: hidden;
+    height: .1rem;
+} 
     
 }

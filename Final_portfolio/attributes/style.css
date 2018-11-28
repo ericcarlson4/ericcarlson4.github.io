@@ -297,11 +297,14 @@ h2 {
     
     .home_container_small {
         width: 100%;
+        margin: 0px;
     }
     
     .margin {
         width: 90%;
     }
+    
+
     
 }
 
@@ -331,6 +334,8 @@ h2 {
     .resume_container {
         margin-top: 3rem;
     }
+    
+    
     
 }
 
