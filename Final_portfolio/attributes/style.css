@@ -48,7 +48,7 @@ h2 {
 .title {
     font-family: superclarendon, serif;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
     
@@ -272,7 +272,11 @@ h2 {
     
    .resume_container {
         margin-top: 3rem;
+      
+       width: 100%;
     } 
+    
+    
     
     
     
@@ -339,6 +343,10 @@ h2 {
         margin-left: 5%;
     }
     
+    .title {
+        font-size: 1rem;
+        
+    }
     
 
     
@@ -404,6 +412,10 @@ h2 {
     
     .home_container_small p{
         font-size: .9rem;
+    }
+    
+    .title {
+        font-size: 1.5rem;
     }
     
     

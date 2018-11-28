@@ -437,7 +437,9 @@ body {
 .animals_finals {
     display:flex;
     flex-wrap: wrap;
+    margin:auto;
     justify-content: center;
+
 
     
 }
@@ -562,6 +564,9 @@ body {
     width: 100%;
     }
     
+    .title {
+        font-size: 1rem;
+    }
     
     
     /*PROJECT IMAGES8888888888888888888888888*/
@@ -595,7 +600,7 @@ body {
     width: 100%;
 }
     
-    
+
   
     
  /*ACE8888888888888888888888888*/  
