@@ -367,6 +367,36 @@ body {
 
 
 
+/*RESUME SPECIFIC
+888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+.resume_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume_half1 {
+    width: 65%;
+    margin-right: 2rem;
+}
+
+.resume_half2 {
+    width: 30%;
+    font-size: .7rem;
+    color: gray;
+
+}
+
+.position_dates {
+    visibility: hidden;
+    height: .1rem;
+}
+
+
+
+
+
+
 
 
 
