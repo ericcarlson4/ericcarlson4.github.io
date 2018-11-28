@@ -164,7 +164,9 @@ h2 {
 
 #front_link {
     text-align: center;
+    color: navy;
 }
+
 
 
 
@@ -200,7 +202,15 @@ h2 {
 .bottom {
     width: 100%;
     height: 10rem;
-    background-color: lightcoral;
+    background-color: #0D2039;
+    padding-top: 3rem;
+    color: white;
+}
+
+.bottom img {
+    margin-top: 1rem;
+    margin-right: .3rem;
+    width: 2.5rem;
 }
 
 
@@ -313,6 +323,8 @@ h2 {
         height: .1rem;
     }
     
+    
+    
       .low_title h2 {
         font-size: 1.1rem;
     }
@@ -324,6 +336,7 @@ h2 {
     .low_title_container {
         margin-bottom: 2rem;
         margin-top: 1rem;
+        margin-left: 5%;
     }
     
     
@@ -364,12 +377,15 @@ h2 {
     }
     
     .low_title {
-        text-align: center; 
+        text-align: left; 
         font-size: 1.2rem;
+        margin-left:10%;
     }
     
     .low_title h2 {
         font-size: 1.3rem;
+        
+      
     }
     
     .low_title h1 {

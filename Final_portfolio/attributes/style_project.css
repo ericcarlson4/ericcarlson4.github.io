@@ -594,6 +594,8 @@ body {
 .double2 {
     width: 100%;
 }
+    
+    
   
     
  /*ACE8888888888888888888888888*/  
@@ -629,6 +631,7 @@ body {
     
 .about1 {
     visibility: hidden;
+    height: 3rem;
 }
 
 .about2 {
@@ -721,6 +724,7 @@ body {
        /*ABOUT888888*/
 .about1 {
     visibility: hidden;
+    height: 3rem;
 }
 
 .about2 {
